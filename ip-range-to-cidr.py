@@ -1,7 +1,6 @@
 import sys
 import ipaddress
 
-
 def convert_ip_range_to_cidr(start_ip, end_ip):
     start_ip_obj = ipaddress.ip_address(start_ip)
     end_ip_obj = ipaddress.ip_address(end_ip)
