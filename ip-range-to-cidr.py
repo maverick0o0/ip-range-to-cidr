@@ -44,3 +44,5 @@ if __name__ == '__main__':
     else:
         for cidr in cidr_results:
             print(cidr)
+
+# add stdin
